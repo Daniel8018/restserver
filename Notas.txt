@@ -1,0 +1,35 @@
+instalamos express
+
+
+y dotenv
+
+
+
+basicamente hacemos un require de express
+
+
+metemos express en una variables
+
+ese express. get (ruta y funcion a hacer)
+
+definimos el puerto en el que se va a usar
+app.listen(puerto ,callback con un log con el puerto);
+
+
+todo esto se mete en una clase para facilitar su uso
+
+y el metodo SEND es para enviar una pagina 
+
+metodo json para enviar un json
+
+EJEMPLO:  
+  this.app.get('/api', (req, res) => {
+            res.json({
+                msg: 'get a la aplicacion'
+            });
+        });
+
+
+
+        instalamos el cors que lo que hace es darle seguridad
+        al api para que solo lo pueda usar una lista
